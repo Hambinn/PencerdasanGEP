@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    margin: 300px;
+    padding: 30px;
+    border: 5px #000000 solid;
+    background-color: aqua;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.container:hover{
+    background-color: yellow;
+}
+
+.halo{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container p span{
+    font-size: 40px;
+}

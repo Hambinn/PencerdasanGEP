@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border: 5px black solid;
+    width: 700px;
+    margin: 400px auto;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.container div{
+    background-color: pink;
+    font-size: 30px;
+    height: 120px;
+    width: 120px;
+    margin: 2px;
+    text-align: center;
+    transition: 0.3s;
+}
+.container div:hover{
+    transform: scale(2);
+    background-color: salmon;
+    cursor: crosshair;
+}
+.container a{
+    text-decoration: none;
+    color: black;
+}
+.user-form{
+    border: 5px black solid;
+    transition: 0.5s;
+}
+.user-form:focus{
+    border: 5px aqua solid;
+}
+
+
